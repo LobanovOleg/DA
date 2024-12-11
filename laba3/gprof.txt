@@ -1,0 +1,12 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+%   cumulative   self              self     total           
+time   seconds   seconds    calls  ns/call  ns/call  name    
+40.02    0.10     0.10                               main
+20.00    0.17     0.05       1000     4.33     4.33  Insert
+20.01    0.22     0.05       1000     4.73     4.73  DeleteNode
+20.00    0.25     0.05       1000     4.54     4.54  FindNode
+0.00     0.25     0.00        508     0.00     0.00  Rotate_L
+0.00     0.25     0.00        485     0.00     0.00  Rotate_R
+0.00     0.25     0.00          1     0.00     0.00  Clean

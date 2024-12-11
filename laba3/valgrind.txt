@@ -1,0 +1,93 @@
+==176542== Memcheck, a memory error detector
+==176542== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==176542== Using Valgrind-3.20.0 and LibVEX; rerun with -h for copyright info
+==176542== Command: ./laba2
+==176542== Parent PID: 142788
+==176542== 
+==176542== 
+==176542== Process terminating with default action of signal 27 (SIGPROF)
+==176542==    at 0x4C0082C: __open_nocancel (open64_nocancel.c:39)
+==176542==    by 0x4C0F4EF: write_gmon (gmon.c:393)
+==176542==    by 0x4C0FDA6: _mcleanup (gmon.c:467)
+==176542==    by 0x4B404A0: __cxa_finalize (cxa_finalize.c:82)
+==176542==    by 0x10B386: ??? (in /home/fedor/Downloads/laba2.o)
+==176542==    by 0x40010C9: _dl_call_fini (dl-call_fini.c:43)
+==176542==    by 0x4004CCD: _dl_fini (dl-fini.c:114)
+==176542==    by 0x4B40A15: __run_exit_handlers (exit.c:111)
+==176542==    by 0x4B40B49: exit (exit.c:141)
+==176542==    by 0x4B28C90: (below main) (libc_start_call_main.h:74)
+==176542== 
+==176542== HEAP SUMMARY:
+==176542==     in use at exit: 244,056 bytes in 8 blocks
+==176542==   total heap usage: 2,012 allocs, 2,004 frees, 572,658 bytes allocated
+==176542== 
+==176542== 8,192 bytes in 1 blocks are still reachable in loss record 1 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4987493: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4985401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933CBC: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 8,192 bytes in 1 blocks are still reachable in loss record 2 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4987493: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4985401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933CDF: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 8,192 bytes in 1 blocks are still reachable in loss record 3 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4987493: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4985401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933D02: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 32,768 bytes in 1 blocks are still reachable in loss record 4 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4989106: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x49855E1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933D6B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 32,768 bytes in 1 blocks are still reachable in loss record 5 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4989106: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x49855E1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933D8E: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 32,768 bytes in 1 blocks are still reachable in loss record 6 of 8
+==176542==    at 0x4842263: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4989106: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x49855E1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4933DB1: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x10BB40: main (laba2.cpp:392)
+==176542== 
+==176542== 47,448 bytes in 1 blocks are still reachable in loss record 7 of 8
+==176542==    at 0x48459F3: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4C0FC08: monstartup (gmon.c:175)
+==176542==    by 0x10B2C0: __gmon_start__ (in /home/fedor/Downloads/laba2.o)
+==176542==    by 0x4840011: ??? (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x4000C8F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+==176542==    by 0x4004E34: call_init (dl-init.c:60)
+==176542==    by 0x4004E34: call_init (dl-init.c:26)
+==176542==    by 0x4004FC4: _dl_init (dl-init.c:88)
+==176542==    by 0x401A83F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+==176542== 
+==176542== 73,728 bytes in 1 blocks are still reachable in loss record 8 of 8
+==176542==    at 0x4840808: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==176542==    by 0x491D74D: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+==176542==    by 0x4004E7D: call_init (dl-init.c:74)
+==176542==    by 0x4004E7D: call_init (dl-init.c:26)
+==176542==    by 0x4004F63: _dl_init (dl-init.c:121)
+==176542==    by 0x401A83F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+==176542== 
+==176542== LEAK SUMMARY:
+==176542==    definitely lost: 0 bytes in 0 blocks
+==176542==    indirectly lost: 0 bytes in 0 blocks
+==176542==      possibly lost: 0 bytes in 0 blocks
+==176542==    still reachable: 244,056 bytes in 8 blocks
+==176542==         suppressed: 0 bytes in 0 blocks
+==176542== 
+==176542== For lists of detected and suppressed errors, rerun with: -s
+==176542== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
