@@ -7,5 +7,5 @@
 [laba_5](https://github.com/LobanovOleg/DA/tree/main/laba5) - Суффиксные деревья (Поиск образца с использованием статистики совпадений)  
 [laba_7](https://github.com/LobanovOleg/DA/tree/main/laba7) - Жадные алгоритмы (Оптимальная сортировка чисел)  
 [laba_8](https://github.com/LobanovOleg/DA/tree/main/laba8) - Динамическое программирование (Обход матрицы)  
-<!-- [laba_9](https://github.com/LobanovOleg/DA/tree/main/laba9) -   
-[kp](https://github.com/LobanovOleg/DA/tree/main/kp) -    -->
+[laba_9](https://github.com/LobanovOleg/DA/tree/main/laba9) - Графы (алгоритм Джонсона)  
+<!-- [kp](https://github.com/LobanovOleg/DA/tree/main/kp) -    -->
